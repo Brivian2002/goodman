@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0d6efd;
+  padding: 1rem;
+}
+.navbar .logo {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: #e2e6ea;
+}
+.hero h1 {
+  margin-bottom: 0.5rem;
+}
+.hero p {
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+/* Main Content */
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: center;
+}
+.tool-card {
+  background: #fff;
+  padding: 1rem;
+  border: 1px solid #dee2e6;
+  width: 300px;
+  text-align: center;
+  border-radius: 4px;
+}
+.tool-card h2 {
+  margin: 0.5rem 0;
+}
+.tool-card p {
+  font-size: 0.95rem;
+  color: #666;
+}
+.btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: #0d6efd;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* AdSense Placeholder */
+.adsense-placeholder {
+  margin: 2rem;
+  text-align: center;
+  background: #eee;
+  padding: 1rem;
+  border: 1px dashed #ccc;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background: #343a40;
+  color: #fff;
+}
+.footer-links {
+  margin-bottom: 0.5rem;
+}
+.footer-links a {
+  color: #fff;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
