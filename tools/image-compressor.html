@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Image Compressor</title>
+  <link rel="stylesheet" href="../style.css">
+  <!-- Include the Compressor.js library (CDN or local) -->
+  <script src="https://unpkg.com/compressorjs/dist/compressor.min.js"></script>
+</head>
+<body>
+
+  <!-- Navbar or link back to home -->
+  <nav class="navbar">
+    <div class="logo">DocToolsHub (Demo)</div>
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <!-- add more links as needed -->
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <h1>Image Compressor</h1>
+    <p>Compress images without losing (much) quality</p>
+  </header>
+
+  <main class="main-content">
+    <section class="tool-card" style="width: 100%;">
+      <h2>Select an image to compress</h2>
+      <input type="file" id="inputImage" accept="image/*" />
+      <div style="margin-top: 1rem;">
+        <img id="preview" style="max-width: 300px;" />
+      </div>
+      <button id="downloadBtn" class="btn" style="margin-top:1rem;" disabled>Download Compressed Image</button>
+    </section>
+  </main>
+
+  <!-- AdSense placeholder -->
+  <div class="adsense-placeholder">
+    <p>[AdSense Space]</p>
+  </div>
+
+  <footer class="footer">
+    <p>© 2025 DocToolsHub Demo</p>
+  </footer>
+
+  <!-- Your script for handling compression -->
+  <script src="image-compressor.js"></script>
+</body>
+</html>
